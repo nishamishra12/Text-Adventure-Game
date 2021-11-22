@@ -1,0 +1,423 @@
+"C:\Program Files\Java\jdk-11.0.12\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar=53008:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\nisha\Desktop\MSCS\PDP\Adventure Game\out\production\Adventure Game" dungeon.DungeonMain 5 4 2 20 false 5
+*********** Dungeon Created ***************
+
+TUNNEL: 0
+-->SOUTH Neighbor: CAVE: 4
+-->EAST Neighbor: TUNNEL: 1
+Arrow Count: 3
+
+TUNNEL: 1
+-->EAST Neighbor: CAVE: 2
+-->WEST Neighbor: TUNNEL: 0
+Arrow Count: 2
+
+CAVE: 2
+-->SOUTH Neighbor: CAVE: 6
+-->EAST Neighbor: CAVE: 3
+-->WEST Neighbor: TUNNEL: 1
+Arrow Count: 1
+
+CAVE: 3
+-->WEST Neighbor: CAVE: 2
+###Monster###
+Arrow Count: 1
+
+CAVE: 4
+-->NORTH Neighbor: TUNNEL: 0
+###Monster###
+Arrow Count: 1
+
+TUNNEL: 5
+-->SOUTH Neighbor: CAVE: 9
+-->EAST Neighbor: CAVE: 6
+Arrow Count: 1
+
+CAVE: 6
+-->NORTH Neighbor: CAVE: 2
+-->EAST Neighbor: TUNNEL: 7
+-->WEST Neighbor: TUNNEL: 5
+###Monster###
+Arrow Count: 3
+
+TUNNEL: 7
+-->SOUTH Neighbor: TUNNEL: 11
+-->WEST Neighbor: CAVE: 6
+
+TUNNEL: 8
+-->SOUTH Neighbor: CAVE: 12
+-->EAST Neighbor: CAVE: 9
+Arrow Count: 1
+
+CAVE: 9
+-->NORTH Neighbor: TUNNEL: 5
+-->SOUTH Neighbor: CAVE: 13
+-->EAST Neighbor: TUNNEL: 10
+-->WEST Neighbor: TUNNEL: 8
+###Monster###
+
+TUNNEL: 10
+-->EAST Neighbor: TUNNEL: 11
+-->WEST Neighbor: CAVE: 9
+Arrow Count: 1
+
+TUNNEL: 11
+-->NORTH Neighbor: TUNNEL: 7
+-->WEST Neighbor: TUNNEL: 10
+Arrow Count: 3
+
+CAVE: 12
+-->NORTH Neighbor: TUNNEL: 8
+-->SOUTH Neighbor: CAVE: 16
+-->EAST Neighbor: CAVE: 13
+
+CAVE: 13
+-->NORTH Neighbor: CAVE: 9
+-->SOUTH Neighbor: TUNNEL: 17
+-->WEST Neighbor: CAVE: 12
+Arrow Count: 1
+
+CAVE: 14
+-->SOUTH Neighbor: CAVE: 18
+Arrow Count: 1
+
+CAVE: 15
+-->SOUTH Neighbor: TUNNEL: 19
+Arrow Count: 1
+
+CAVE: 16
+-->NORTH Neighbor: CAVE: 12
+Arrow Count: 2
+
+TUNNEL: 17
+-->NORTH Neighbor: CAVE: 13
+-->EAST Neighbor: CAVE: 18
+
+CAVE: 18
+-->NORTH Neighbor: CAVE: 14
+-->EAST Neighbor: TUNNEL: 19
+-->WEST Neighbor: TUNNEL: 17
+###Monster###
+Arrow Count: 2
+
+TUNNEL: 19
+-->NORTH Neighbor: CAVE: 15
+-->WEST Neighbor: CAVE: 18
+Arrow Count: 3
+
+*************** Game Begins ***************
+Start Cave: 2
+End Cave: 18
+
+The player is in CAVE: 2
+Player has no treasure
+Player has 3 arrows
+Cave has following treasures -
+Sapphire
+Ruby
+There are 1 arrows in the current location
+Next possible moves: 
+South
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+P
+
+What? A/T
+T
+Treasure picked up
+
+The player is in CAVE: 2
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 3 arrows
+The cave has no treasures
+There are 1 arrows in the current location
+Next possible moves: 
+South
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+P
+
+What? A/T
+A
+Arrow picked up
+
+The player is in CAVE: 2
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 4 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+South
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+S
+
+Player shot the monster, monster is injured
+
+The player is in CAVE: 2
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 3 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+South
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+S
+
+Player shot the monster, monster has been killed
+
+The player is in CAVE: 2
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 2 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+South
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+S
+Player moved successfully to location 6
+
+The player is in CAVE: 6
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 2 arrows
+The cave has no treasures
+There are 3 arrows in the current location
+Next possible moves: 
+North
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+P
+
+What? A/T
+A
+Arrow picked up
+
+The player is in CAVE: 6
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 5 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+North
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+W
+Player moved successfully to location 5
+
+The player is in TUNNEL: 5
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 5 arrows
+The cave has no treasures
+There are 1 arrows in the current location
+Next possible moves: 
+South
+East
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+S
+
+Player shot the monster, monster is injured
+
+The player is in TUNNEL: 5
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 4 arrows
+The cave has no treasures
+There are 1 arrows in the current location
+Next possible moves: 
+South
+East
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+S
+
+Player shot the monster, monster has been killed
+
+The player is in TUNNEL: 5
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 3 arrows
+The cave has no treasures
+There are 1 arrows in the current location
+Next possible moves: 
+South
+East
+Smell: NONE
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+S
+Player moved successfully to location 9
+
+The player is in CAVE: 9
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 3 arrows
+Cave has following treasures -
+Sapphire
+There are no arrows at the current location
+Next possible moves: 
+North
+South
+East
+West
+Smell: NONE
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+S
+Player moved successfully to location 13
+
+The player is in CAVE: 13
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 3 arrows
+Cave has following treasures -
+Ruby
+Ruby
+There are 1 arrows in the current location
+Next possible moves: 
+North
+South
+West
+Smell: LOW
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+P
+
+What? A/T
+A
+Arrow picked up
+
+The player is in CAVE: 13
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 4 arrows
+Cave has following treasures -
+Ruby
+Ruby
+There are no arrows at the current location
+Next possible moves: 
+North
+South
+West
+Smell: LOW
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+S
+Player moved successfully to location 17
+
+The player is in TUNNEL: 17
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 4 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+North
+East
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+2
+Where to?
+W
+
+You shot an arrow into the darkness
+
+The player is in TUNNEL: 17
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 4 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+North
+East
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+E
+
+Player shot the monster, monster is injured
+
+The player is in TUNNEL: 17
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 3 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+North
+East
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+E
+
+Player shot the monster, monster has been killed
+
+The player is in TUNNEL: 17
+Player has following treasures: RUBY: 1 SAPPHIRE: 1
+Player has 2 arrows
+The cave has no treasures
+There are no arrows at the current location
+Next possible moves: 
+North
+East
+Smell: NONE
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+E
+Player moved successfully to location 18
+
+Player has reached the destination location 18. Game Over!!
+Process finished with exit code 0

@@ -1,0 +1,180 @@
+"C:\Program Files\Java\jdk-11.0.12\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar=53064:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\nisha\Desktop\MSCS\PDP\Adventure Game\out\production\Adventure Game" dungeon.DungeonMain 5 4 2 20 true 5
+*********** Dungeon Created ***************
+
+TUNNEL: 0
+-->EAST Neighbor: TUNNEL: 1
+-->WEST Neighbor: TUNNEL: 3
+Arrow Count: 2
+
+TUNNEL: 1
+-->NORTH Neighbor: CAVE: 17
+-->WEST Neighbor: TUNNEL: 0
+
+CAVE: 2
+-->SOUTH Neighbor: CAVE: 6
+Arrow Count: 3
+
+TUNNEL: 3
+-->SOUTH Neighbor: CAVE: 7
+-->EAST Neighbor: TUNNEL: 0
+Arrow Count: 1
+
+CAVE: 4
+-->SOUTH Neighbor: TUNNEL: 8
+###Monster###
+Arrow Count: 2
+
+TUNNEL: 5
+-->SOUTH Neighbor: CAVE: 9
+-->EAST Neighbor: CAVE: 6
+Arrow Count: 2
+
+CAVE: 6
+-->NORTH Neighbor: CAVE: 2
+-->EAST Neighbor: CAVE: 7
+-->WEST Neighbor: TUNNEL: 5
+###Monster###
+Arrow Count: 1
+
+CAVE: 7
+-->NORTH Neighbor: TUNNEL: 3
+-->SOUTH Neighbor: TUNNEL: 11
+-->WEST Neighbor: CAVE: 6
+###Monster###
+
+TUNNEL: 8
+-->NORTH Neighbor: CAVE: 4
+-->SOUTH Neighbor: CAVE: 12
+Arrow Count: 3
+
+CAVE: 9
+-->NORTH Neighbor: TUNNEL: 5
+-->SOUTH Neighbor: TUNNEL: 13
+-->EAST Neighbor: TUNNEL: 10
+###Monster###
+Arrow Count: 2
+
+TUNNEL: 10
+-->SOUTH Neighbor: TUNNEL: 14
+-->WEST Neighbor: CAVE: 9
+
+TUNNEL: 11
+-->NORTH Neighbor: CAVE: 7
+-->SOUTH Neighbor: TUNNEL: 15
+
+CAVE: 12
+-->NORTH Neighbor: TUNNEL: 8
+-->SOUTH Neighbor: CAVE: 16
+-->EAST Neighbor: TUNNEL: 13
+
+TUNNEL: 13
+-->NORTH Neighbor: CAVE: 9
+-->WEST Neighbor: CAVE: 12
+
+TUNNEL: 14
+-->NORTH Neighbor: TUNNEL: 10
+-->EAST Neighbor: TUNNEL: 15
+
+TUNNEL: 15
+-->NORTH Neighbor: TUNNEL: 11
+-->WEST Neighbor: TUNNEL: 14
+Arrow Count: 1
+
+CAVE: 16
+-->NORTH Neighbor: CAVE: 12
+-->EAST Neighbor: CAVE: 17
+-->WEST Neighbor: CAVE: 19
+
+CAVE: 17
+-->SOUTH Neighbor: TUNNEL: 1
+-->EAST Neighbor: CAVE: 18
+-->WEST Neighbor: CAVE: 16
+###Monster###
+Arrow Count: 2
+
+CAVE: 18
+-->WEST Neighbor: CAVE: 17
+
+CAVE: 19
+-->EAST Neighbor: CAVE: 16
+
+*************** Game Begins ***************
+Start Cave: 2
+End Cave: 17
+
+The player is in CAVE: 2
+Player has no treasure
+Player has 3 arrows
+Cave has following treasures -
+Sapphire
+There are 3 arrows in the current location
+Next possible moves:
+South
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+S
+
+Player shot the monster, monster is injured
+
+The player is in CAVE: 2
+Player has no treasure
+Player has 2 arrows
+Cave has following treasures -
+Sapphire
+There are 3 arrows in the current location
+Next possible moves: 
+South
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+S
+
+No. of caves (1-5)?
+1
+Where to?
+S
+
+Player shot the monster, monster has been killed
+
+The player is in CAVE: 2
+Player has no treasure
+Player has 1 arrows
+Cave has following treasures -
+Sapphire
+There are 3 arrows in the current location
+Next possible moves: 
+South
+Smell: LOW
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+S
+Player moved successfully to location 6
+
+The player is in CAVE: 6
+Player has no treasure
+Player has 1 arrows
+Cave has following treasures -
+Ruby
+Ruby
+There are 1 arrows in the current location
+Next possible moves: 
+North
+East
+West
+Smell: HIGH
+What do you want to do? Move, Pickup, Shoot, Quit (M-P-S-Q)?
+M
+
+Please select your next move. Enter N: North, Enter S: South, Enter E: East, Enter W: West
+E
+
+Monster in cave! Chomp, chomp, chomp, player got eaten by an Otyugh!
+Better luck next time
+
+Process finished with exit code 0
